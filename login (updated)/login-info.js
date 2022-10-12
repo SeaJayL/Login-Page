@@ -18,7 +18,7 @@ const logButton = document.getElementById('button');
             }
 
             if(userDiv === "admin" && passDiv === "root"){
-                location.href = "login-home.html"
+                window.open("login-home.html")
             }
             else{
                 alert('Wrong username or password');
